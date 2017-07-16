@@ -5,30 +5,26 @@
     <title>Questions</title>
 </head>
 <body>
-<marquee behaviour="alternate">
-<h1>Thanks!</h1>
 
-<textarea rows="20" cols="50">
-─────────▄──────────────▄
-────────▌▒█───────────▄▀▒▌
-────────▌▒▒▀▄───────▄▀▒▒▒▐
-───────▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐
-─────▄▄▀▒▒▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐
-───▄▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀██▀▒▌
-──▐▒▒▒▄▄▄▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄▒▒▌
-──▌▒▒▐▄█▀▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐
-─▐▒▒▒▒▒▒▒▒▒▒▒▌██▀▒▒▒▒▒▒▒▒▀▄▌
-─▌▒▀▄██▄▒▒▒▒▒▒▒▒▒▒▒░░░░▒▒▒▒▌
-─▌▀▐▄█▄█▌▄▒▀▒▒▒▒▒▒░░░░░░▒▒▒▐
-▐▒▀▐▀▐▀▒▒▄▄▒▄▒▒▒▒▒░░░░░░▒▒▒▒▌
-▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒░░░░░░▒▒▒▐
-─▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒▒▒░░░░▒▒▒▒▌
-─▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▐
-──▀▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▒▒▒▒▌
-────▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀
-───▐▀▒▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀
-──▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▀▀
-</textarea>
-</marquee>
+<form method="post" action="/submit_answers" id="Questions">
+
+            <div>
+                <p>Q1: Is it True or False?</p>
+
+              <label for="true" >True</label>
+                <input type='radio' name="Q1" value='true'> <br>
+
+              <label for="false" >False</label>
+                <input type='radio' name="Q1" value='false'> <br>
+
+            </div>
+
+
+
+</form>
+<input type="submit" value="Go!"></input>
+
+
+
 </body>
 </html>
